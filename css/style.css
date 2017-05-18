@@ -1,0 +1,135 @@
+#main{
+width:960px;
+margin:50px auto;
+font-family:raleway;
+}
+html, body {
+max-width: 100%;
+overflow-x: hidden;
+}
+span{
+color:red;
+}
+
+h2{
+background-color: #FEFFED;
+text-align:center;
+border-radius: 8px 8px 0 0;
+margin: -10px -40px;
+padding: 15px;
+}
+
+#login{
+width:500px;
+float: center;
+border-radius: 10px;
+font-family:raleway;
+border: 2px solid #ccc;
+padding: 10px 40px 25px;
+margin-top: 0;
+margin-left: 16%;
+position: fixed;
+}
+#registration{
+width:500px;
+float: center;
+border-radius: 10px;
+font-family:raleway;
+border: 2px solid #ccc;
+padding: 10px 40px 25px;
+margin-top: -50px;
+margin-left: 17%;
+position: fixed;
+}
+input[type=text],input[type=password], input[type=email]{
+width:99.5%;
+padding: 10px;
+margin-top: 8px;
+border: 1px solid #ccc;
+padding-left: 5px;
+font-size: 16px;
+font-family:raleway;
+}
+
+input[type=submit]{
+width: 100%;
+background-color:#FFBC00;
+color: white;
+border: 2px solid #FFCB00;
+padding: 10px;
+font-size:20px;
+cursor:pointer;
+border-radius: 5px;
+margin-bottom: 15px;
+}
+
+#profile{
+padding:50px;
+border:1px dashed grey;
+font-size:12px;
+background-color:#DCE6F7;
+margin-top: -20px;
+}
+#header{
+margin-top: -30px;
+border:1px dashed grey;
+padding-top:30px;
+background-color:#DCE6F7;
+}
+
+#logout{
+float:right;
+padding:5px;
+border:dashed 1px gray;
+margin-top: -100px;
+font-size:10px;
+}
+
+a{
+text-decoration:none;
+color: cornflowerblue;
+}
+
+i{
+color: cornflowerblue;
+}
+
+.error_msg{
+color:red;
+font-size: 16px;
+}
+
+.message{
+position: absolute;
+font-weight: bold;
+font-size: 28px;
+color: #6495ED;
+left: 31%;
+width: 500px;
+text-align: center;
+margin-top: -50px;
+margin-bottom:10px;
+}
+.logo{
+margin-left:18%;
+margin-top:-25px;
+position: fixed;
+}
+.title{
+margin-top:-20px;
+margin-left: -2%;
+position: fixed;
+}
+.address{
+margin-left:40%;
+margin-top:-70px;
+position: fixed;
+}
+.address1{
+margin-left:42%;
+margin-top:-50px;
+position: fixed;
+}
+.head{
+position: fixed;
+}
